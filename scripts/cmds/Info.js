@@ -18,15 +18,15 @@ module.exports = {
   onStart: async function ({ message }) {
 
     // OWNER INFO
-    const authorName = "×᷼×ＭＡ☂Ｍ☂ＵＮ☆";
-    const ownAge = "19+";
-    const messenger = "https://m.me/mamun.8192";
-    const authorFB = "MA M UN Bb'z";
-    const authorNumber = "+8801830981279";
+    const authorName = "×᷼×ARIFUL ISLAM☆";
+    const ownAge = "18+";
+    const messenger = "";
+    const authorFB = "ARIFUL ISLAM";
+    const authorNumber = "+96599894039";
     const Status = "Single";
 
     // SAFE CATBOX VIDEO LINK
-    const videoLink = "https://files.catbox.moe/a03xbs.mp4";
+    const videoLink = "https://files.catbox.moe/q7mgv8.mp4";
 
     // BANGLADESH TIME
     const now = moment().tz("Asia/Dhaka");
