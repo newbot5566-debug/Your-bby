@@ -4,8 +4,8 @@ const moment = require("moment-timezone");
 const getStreamFromURL = global.utils.getStreamFromURL;
 
 const gifList = [
-	"https://files.catbox.moe/trmgdg.mp4",
-   "https://files.catbox.moe/a03xbs.mp4"
+	"https://files.catbox.moe/w7ue4h.mp4",
+   "https://files.catbox.moe/q7mgv8.mp4"
 ];
 
 const getRandomGif = () =>
@@ -112,11 +112,11 @@ module.exports = {
 		const time = moment().tz("Asia/Dhaka").format("hh:mm A");
 		const date = moment().tz("Asia/Dhaka").format("DD MMM YYYY");
 
-		const owner = global.GoatBot.config.adminName || "亗🅼🅰ᥫᩣ🅼ᥫᩣ🆄🅽×͜×";
+		const owner = global.GoatBot.config.adminName || "亗ARIFUL";
 
 		return message.reply({
 			body:
-`╭━━━〔 ♡┋ 𝙋𝙊𝙊𝙆𝙄𝙀 ᭡PREFIX 〕━━━╮
+`╭━━━〔 ᭡PREFIX 〕━━━╮
 ┃ 🏷️ Group : ${groupName}
 ┃ 🔰 System : 『 ${systemPrefix} 』
 ┃ 💬 Group  : 『 ${groupPrefix} 』
@@ -124,7 +124,7 @@ module.exports = {
 ┃ 📅 Date   : ${date}
 ┃ 👑 Owner  : ${owner}
 ┃ ⚡ Status : ONLINE
-╰━━━〔 ✨ 亗🅼🅰ᥫᩣ🅼ᥫᩣ🆄🅽×͜× 〕━━━╯`,
+╰━━━〔  🎁☑️👀 〕━━━╯`,
 			attachment: await getStreamFromURL(gif)
 		});
 	}
