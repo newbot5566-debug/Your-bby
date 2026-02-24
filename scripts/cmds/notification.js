@@ -60,14 +60,15 @@ module.exports = {
     }
 
     
-    const owner = "×᷼×ＭＡ☂Ｍ☂ＵＮ☆"; 
-    const fb = "MA M UN Bb'z";
+    const owner = "ARIFUL ISLAM"; 
+    const fb = "ARIFUL";
 
     
     const formSend = {
       body:
 `╭━━━〔 𝗡𝗢𝗧𝗜𝗙𝗜𝗖𝗔𝗧𝗜𝗢𝗡  〕━━━╮
-│ OWNER: ${owner}
+│OWNER: ${owner}
+│
 │MESSENGER: ${fb}
 ╰━━━━━━━━━━━━━━━━━━━━━━╯
 
